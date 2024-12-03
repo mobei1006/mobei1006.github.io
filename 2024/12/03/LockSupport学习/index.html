@@ -21,7 +21,7 @@
   <meta name="description" content="总结一下LockSupport 主要是用来创建锁和其他同步类的基本线程阻塞语句，他有两个主要方法 park 和 unpark。park 和 unpark 的原理是对 volatile 变量 **&lt;font style&#x3D;&quot;color:#AE146E;&quot;&gt;_counter&lt;&#x2F;font&gt;**的操作。park 是将 _counter 变量修改为 0，unpark">
 <meta property="og:type" content="article">
 <meta property="og:title" content="LockSupport学习">
-<meta property="og:url" content="https://mobei1006.github.io/blog/public/2024/12/03/LockSupport%E5%AD%A6%E4%B9%A0/index.html">
+<meta property="og:url" content="https://github.com/mobei1006/mobei1006.github.io/2024/12/03/LockSupport%E5%AD%A6%E4%B9%A0/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="总结一下LockSupport 主要是用来创建锁和其他同步类的基本线程阻塞语句，他有两个主要方法 park 和 unpark。park 和 unpark 的原理是对 volatile 变量 **&lt;font style&#x3D;&quot;color:#AE146E;&quot;&gt;_counter&lt;&#x2F;font&gt;**的操作。park 是将 _counter 变量修改为 0，unpark">
 <meta property="og:locale" content="zh_CN">
@@ -34,7 +34,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/mobei1006/ImageHome/master/images/1726452349005-bc4c545b-3f35-4430-b946-a8297d7a5f4f.png">
   <!-- Canonical links -->
-  <link rel="canonical" href="https://mobei1006.github.io/blog/public/2024/12/03/LockSupport%E5%AD%A6%E4%B9%A0/index.html">
+  <link rel="canonical" href="https://github.com/mobei1006/mobei1006.github.io/2024/12/03/LockSupport%E5%AD%A6%E4%B9%A0/index.html">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -42,7 +42,7 @@
     <link rel="icon" href="/favicon.png" type="image/x-icon">
   
   
-<link rel="stylesheet" href="/blog/public/css/style.css">
+<link rel="stylesheet" href="/mobei1006/mobei1006.github.io/css/style.css">
 
   
   
@@ -59,7 +59,7 @@
       
       <div class="profile-block text-center">
         <a id="avatar" href="https://github.com/cofess" target="_blank">
-          <img class="img-circle img-rotate" src="/blog/public/favicon.png" width="200" height="200">
+          <img class="img-circle img-rotate" src="/mobei1006/mobei1006.github.io/favicon.png" width="200" height="200">
         </a>
         <h2 id="name" class="hidden-xs hidden-sm">莫北</h2>
         <h3 id="title" class="hidden-xs hidden-sm hidden-md">Java &amp; Python</h3>
@@ -103,7 +103,7 @@
         
         
         <li class="menu-item menu-item-home">
-          <a href="/blog/public/.">
+          <a href="/mobei1006/mobei1006.github.io/.">
             
             <i class="icon icon-home-fill"></i>
             
@@ -113,7 +113,7 @@
         
         
         <li class="menu-item menu-item-archives">
-          <a href="/blog/public/archives">
+          <a href="/mobei1006/mobei1006.github.io/archives">
             
             <i class="icon icon-archives-fill"></i>
             
@@ -123,7 +123,7 @@
         
         
         <li class="menu-item menu-item-categories">
-          <a href="/blog/public/categories">
+          <a href="/mobei1006/mobei1006.github.io/categories">
             
             <i class="icon icon-folder"></i>
             
@@ -133,7 +133,7 @@
         
         
         <li class="menu-item menu-item-tags">
-          <a href="/blog/public/tags">
+          <a href="/mobei1006/mobei1006.github.io/tags">
             
             <i class="icon icon-tags"></i>
             
@@ -143,7 +143,7 @@
         
         
         <li class="menu-item menu-item-about">
-          <a href="/blog/public/about">
+          <a href="/mobei1006/mobei1006.github.io/about">
             
             <i class="icon icon-cup-fill"></i>
             
@@ -188,7 +188,7 @@
   <div class="widget">
     <h3 class="widget-title">分类</h3>
     <div class="widget-body">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/blog/public/categories/Java%E5%B9%B6%E5%8F%91/">Java并发</a><span class="category-list-count">1</span></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/mobei1006/mobei1006.github.io/categories/Java%E5%B9%B6%E5%8F%91/">Java并发</a><span class="category-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -198,7 +198,7 @@
   <div class="widget">
     <h3 class="widget-title">标签云</h3>
     <div class="widget-body tagcloud">
-      <a href="/blog/public/tags/Java/" style="font-size: 13px;">Java</a> <a href="/blog/public/tags/%E5%B9%B6%E5%8F%91/" style="font-size: 13px;">并发</a>
+      <a href="/mobei1006/mobei1006.github.io/tags/Java/" style="font-size: 13px;">Java</a> <a href="/mobei1006/mobei1006.github.io/tags/%E5%B9%B6%E5%8F%91/" style="font-size: 13px;">并发</a>
     </div>
   </div>
 
@@ -207,7 +207,7 @@
   <div class="widget">
     <h3 class="widget-title">归档</h3>
     <div class="widget-body">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/blog/public/archives/2024/">2024</a><span class="archive-list-count">2</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/mobei1006/mobei1006.github.io/archives/2024/">2024</a><span class="archive-list-count">2</span></li></ul>
     </div>
   </div>
 
@@ -223,10 +223,10 @@
             
             <div class="item-inner">
               <p class="item-category">
-                <a class="category-link" href="/blog/public/categories/Java%E5%B9%B6%E5%8F%91/">Java并发</a>
+                <a class="category-link" href="/mobei1006/mobei1006.github.io/categories/Java%E5%B9%B6%E5%8F%91/">Java并发</a>
               </p>
               <p class="item-title">
-                <a href="/blog/public/2024/12/03/LockSupport%E5%AD%A6%E4%B9%A0/" class="title">LockSupport学习</a>
+                <a href="/mobei1006/mobei1006.github.io/2024/12/03/LockSupport%E5%AD%A6%E4%B9%A0/" class="title">LockSupport学习</a>
               </p>
               <p class="item-date">
                 <time datetime="2024-12-03T12:22:56.000Z" itemprop="datePublished">2024-12-03</time>
@@ -241,7 +241,7 @@
                 
               </p>
               <p class="item-title">
-                <a href="/blog/public/2024/12/01/hello-world/" class="title">Hello World111</a>
+                <a href="/mobei1006/mobei1006.github.io/2024/12/01/hello-world/" class="title">Hello World111</a>
               </p>
               <p class="item-date">
                 <time datetime="2024-12-01T12:22:19.757Z" itemprop="datePublished">2024-12-01</time>
@@ -277,20 +277,20 @@
       <div class="article-meta">
         <span class="article-date">
     <i class="icon icon-calendar-check"></i>
-	<a href="/blog/public/2024/12/03/LockSupport%E5%AD%A6%E4%B9%A0/" class="article-date">
+	<a href="/mobei1006/mobei1006.github.io/2024/12/03/LockSupport%E5%AD%A6%E4%B9%A0/" class="article-date">
 	  <time datetime="2024-12-03T12:22:56.000Z" itemprop="datePublished">2024-12-03</time>
 	</a>
 </span>
         
   <span class="article-category">
     <i class="icon icon-folder"></i>
-    <a class="article-category-link" href="/blog/public/categories/Java%E5%B9%B6%E5%8F%91/">Java并发</a>
+    <a class="article-category-link" href="/mobei1006/mobei1006.github.io/categories/Java%E5%B9%B6%E5%8F%91/">Java并发</a>
   </span>
 
         
   <span class="article-tag">
     <i class="icon icon-tags"></i>
-	<a class="article-tag-link-link" href="/blog/public/tags/Java/" rel="tag">Java</a>, <a class="article-tag-link-link" href="/blog/public/tags/%E5%B9%B6%E5%8F%91/" rel="tag">并发</a>
+	<a class="article-tag-link-link" href="/mobei1006/mobei1006.github.io/tags/Java/" rel="tag">Java</a>, <a class="article-tag-link-link" href="/mobei1006/mobei1006.github.io/tags/%E5%B9%B6%E5%8F%91/" rel="tag">并发</a>
   </span>
 
 
@@ -303,7 +303,7 @@
 	</span>
 
 
-        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/blog/public/2024/12/03/LockSupport%E5%AD%A6%E4%B9%A0/#comments" class="article-comment-link">评论</a></span>
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/mobei1006/mobei1006.github.io/2024/12/03/LockSupport%E5%AD%A6%E4%B9%A0/#comments" class="article-comment-link">评论</a></span>
         
       </div>
     </div>
@@ -380,7 +380,7 @@
     
     <li class="post-copyright-link hidden-xs">
       <strong>本文链接：</strong>
-      <a href="https://mobei1006.github.io/blog/public/2024/12/03/LockSupport%E5%AD%A6%E4%B9%A0/" title="LockSupport学习" target="_blank" rel="external">https://mobei1006.github.io/blog/public/2024/12/03/LockSupport学习/</a>
+      <a href="https://github.com/mobei1006/mobei1006.github.io/2024/12/03/LockSupport%E5%AD%A6%E4%B9%A0/" title="LockSupport学习" target="_blank" rel="external">https://github.com/mobei1006/mobei1006.github.io/2024/12/03/LockSupport学习/</a>
     </li>
     
     <li class="post-copyright-license">
@@ -395,7 +395,7 @@
     <figure class="media">
       <div class="media-left">
         <a href="https://github.com/cofess" target="_blank" class="img-burn thumb-sm visible-lg">
-          <img src="/blog/public/favicon.png" class="img-rounded w-full" alt="">
+          <img src="/mobei1006/mobei1006.github.io/favicon.png" class="img-rounded w-full" alt="">
         </a>
       </div>
       <div class="media-body">
@@ -428,7 +428,7 @@
     
     
     <li class="next">
-      <a href="/blog/public/2024/12/01/hello-world/" title="Hello World111"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+      <a href="/mobei1006/mobei1006.github.io/2024/12/01/hello-world/" title="Hello World111"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
     </li>
     
     
@@ -473,10 +473,10 @@
 window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 </script>
 
-<script src="/blog/public/js/plugin.min.js"></script>
+<script src="/mobei1006/mobei1006.github.io/js/plugin.min.js"></script>
 
 
-<script src="/blog/public/js/application.js"></script>
+<script src="/mobei1006/mobei1006.github.io/js/application.js"></script>
 
 
     <script>
@@ -489,14 +489,14 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
             TAGS: '标签',
             UNTITLED: '(未命名)',
         },
-        ROOT_URL: '/blog/public/',
-        CONTENT_URL: '/blog/public/content.json',
+        ROOT_URL: '/mobei1006/mobei1006.github.io/',
+        CONTENT_URL: '/mobei1006/mobei1006.github.io/content.json',
     };
     window.INSIGHT_CONFIG = INSIGHT_CONFIG;
 })(window);
 </script>
 
-<script src="/blog/public/js/insight.js"></script>
+<script src="/mobei1006/mobei1006.github.io/js/insight.js"></script>
 
 
 
