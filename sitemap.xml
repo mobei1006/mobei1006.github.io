@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://mobei1006.github.io/2024/12/11/spring-cloud-alibaba%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B/</loc>
-    
-    <lastmod>2024-12-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://mobei1006.github.io/categories/index.html</loc>
     
     <lastmod>2024-12-11</lastmod>
@@ -69,24 +60,10 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>https://mobei1006.github.io/tags/Spring-Cloud/</loc>
-    <lastmod>2024-12-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
   
   <url>
     <loc>https://mobei1006.github.io/categories/Java%E5%B9%B6%E5%8F%91/</loc>
-    <lastmod>2024-12-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://mobei1006.github.io/categories/Java/</loc>
     <lastmod>2024-12-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
